@@ -22,7 +22,7 @@ class Solution:
                 if visited[i] == 0:
                     queue.append(i)
                     distance[i] = distance[val] + 1
-                    visited[i] = 1
+                    visited[i] = 1 
         return bfs
         
 
