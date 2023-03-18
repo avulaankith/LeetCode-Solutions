@@ -9,8 +9,9 @@ class Solution:
 
         result = ""
 
-        strs = sorted(strs)
-        short = len(strs[0])
+        short = 999999999999999999999999
+        for i in strs:
+            short = min(short,len(i))
 
         for i in range(short):
 
