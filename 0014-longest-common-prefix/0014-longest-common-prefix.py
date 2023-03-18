@@ -10,7 +10,7 @@ class Solution:
         result = ""
 
         strs = sorted(strs)
-        short = min(len(strs[0]), len(strs[size - 1]))
+        short = len(strs[0])
 
         for i in range(short):
 
