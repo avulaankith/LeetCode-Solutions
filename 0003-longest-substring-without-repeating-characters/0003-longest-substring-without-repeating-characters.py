@@ -8,19 +8,36 @@ class Solution:
         elif len(s) == 1:
             return 1
 
-        l = 0
-        maxLength = -1
+        chars = {}
 
-        charset = set()
+        left = 0
+        right = 0
+        n = len(s)
+        length = 0
+        while right < n:
+            if s[right] in chars:
+                left = max(chars[s[right]]+1,left)
+            chars[s[right]] = right
 
-        for r in range(len(s)):
-            if s[r] in charset:
-                while(l < r and s[r] in charset):
-                    charset.remove(s[l])
-                    l += 1
-            charset.add(s[r])
-            maxLength = max(maxLength,r-l+1)
-        return maxLength
+            length = max(length,right-left+1)
+            right += 1
+        
+        return length
+
+        # Optimized Solution O(2N)
+        # l = 0
+        # maxLength = -1
+
+        # charset = set()
+
+        # for r in range(len(s)):
+        #     if s[r] in charset:
+        #         while(l < r and s[r] in charset):
+        #             charset.remove(s[l])
+        #             l += 1
+        #     charset.add(s[r])
+        #     maxLength = max(maxLength,r-l+1)
+        # return maxLength
         
 
         # Optimized Solution 2
