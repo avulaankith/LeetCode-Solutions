@@ -9,7 +9,6 @@ class Solution:
             graph[v][u] = w
         
         visited = set()
-
         queue = deque([1])
 
         while len(queue) > 0:
@@ -21,4 +20,3 @@ class Solution:
                 minimum = min(minimum, w)
         
         return minimum
-                
