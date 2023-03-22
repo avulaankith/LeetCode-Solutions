@@ -2,10 +2,26 @@
 
 from typing import List
 from queue import Queue
+from collections import deque
 class Solution:
     #Function to return Breadth First Traversal of given graph.
     def bfsOfGraph(self, V: int, adj: List[List[int]]) -> List[int]:
         # code here
+        # bfs = []
+        # visited = set()
+        
+        # queue = deque([0])
+        
+        # while len(queue) > 0:
+        #     val = queue.popleft()
+        #     bfs.append(val)
+            
+        #     for i in adj[val]:
+        #         if i not in visited:
+        #             queue.append(i)
+        #             visited.add(i)
+        # return bfs
+        
         bfs = []
         visited = [0 for i in range(V+1)]
         distance = [9999999999999999 for i in range(V+1)]
