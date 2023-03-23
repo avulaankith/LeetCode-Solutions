@@ -6,7 +6,7 @@
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
 </strong>grid = {{0,1},{1,0},{1,1},{1,0}}
 <strong>Output:
 </strong>1
@@ -17,11 +17,11 @@
 <span style="color:#000080">1</span> <span style="color:#000080">1
 1</span> 0
 All lands are connected.</span>
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
 </strong>grid = {{0,1,1,1,0,0,0},{0,0,1,1,0,1,0}}
 <strong>Output:
 </strong>2
@@ -31,7 +31,7 @@ All lands are connected.</span>
 0 0 <span style="color:#000080">1 1</span> 0 <span style="color:#FF0000">1</span> 0&nbsp;
 There are two islands :- one is colored in blue 
 and other in orange.</span>
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Your Task:</strong><br>
 You don't need to read or print anything. Your task is to complete the function <strong>numIslands()&nbsp;</strong>which takes the grid as an input parameter and returns the total number of islands.</span></p>
