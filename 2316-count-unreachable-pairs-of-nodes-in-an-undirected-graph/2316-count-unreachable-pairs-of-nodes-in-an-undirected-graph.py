@@ -28,6 +28,7 @@ class Solution:
                 l.append(dfs(visited,adjl,i))
         
         total_pairs = (n*(n-1)) // 2
+        # subtracting existing pairs from total pairs 
         l2 = [nc2(i) for i in l]
         s = sum(l2)
         return total_pairs-s
