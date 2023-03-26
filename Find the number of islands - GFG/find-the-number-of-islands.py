@@ -15,7 +15,6 @@ class Solution:
                     count += 1
                     self.dfs(grid, i, j, visited)
         return count
-                    
         
     
     def dfs(self, grid ,i, j, visited):
