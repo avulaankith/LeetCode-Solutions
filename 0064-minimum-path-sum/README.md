@@ -5,16 +5,16 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg" style="width: 242px; height: 242px;">
-<pre><strong>Input:</strong> grid = [[1,3,1],[1,5,1],[4,2,1]]
+<pre style="position: relative;"><strong>Input:</strong> grid = [[1,3,1],[1,5,1],[4,2,1]]
 <strong>Output:</strong> 7
 <strong>Explanation:</strong> Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> grid = [[1,2,3],[4,5,6]]
+<pre style="position: relative;"><strong>Input:</strong> grid = [[1,2,3],[4,5,6]]
 <strong>Output:</strong> 12
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
